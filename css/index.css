@@ -81,7 +81,6 @@ a {
 
 .site-nav__item {
 	float: left;
-	transition: all .5s;
 }
 
 .site-nav__link {
@@ -97,7 +96,7 @@ a {
 .site-nav__item:hover .site-nav__sub-list {
 	max-height: 1000px;
 	padding: 10px;
-	transition: max-height 2s;
+	transition: max-height 2s, padding-top .5s;
 }
 
 .site-nav__item:hover .site-nav__sub-link {
@@ -126,6 +125,11 @@ a {
 
 .site-nav__sub-link:hover {
 	padding-left: 20px;
+}
+
+.site-nav__sub-title {
+	color: #99CCFF;
+	display: block;
 }
 
 .site-body,
